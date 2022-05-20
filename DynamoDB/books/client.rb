@@ -1,7 +1,7 @@
 require "json"
 require "faraday"
 
-URL = 'API endpoint URL goes here'
+URL = 'https://hhkar3aozg.execute-api.us-west-2.amazonaws.com/default/books'
 
 data = {
   Author: "Suzanne Collins",
